@@ -1,0 +1,19 @@
+//Kenny and Jeremy
+//
+#include<iostream>
+using namespace std;
+
+//declaration
+float CylinderVolume(int height, int radius);
+//1) name, 2) PARAMETERS (), 3)RETURN (goes in front)
+
+int main() {
+	//call
+	cout<<CylinderVolume(5,5);
+
+}
+
+//definition
+float CylinderVolume(int height, int radius) {
+	return 3.14 * radius * radius * height;
+}
